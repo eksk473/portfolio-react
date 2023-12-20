@@ -5,7 +5,7 @@ const Router = () => {
   return (
     <Routes>
       <Route element={<NoCookie />}>
-        <Route element={<Access />} path="/set" />
+        <Route element={<Access />} path="/access" />
       </Route>
       <Route element={<IsCookie />}>
         <Route element={<SideNav />} path="/">

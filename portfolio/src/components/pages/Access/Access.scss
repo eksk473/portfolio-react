@@ -1,0 +1,20 @@
+.AccessPage {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  text-align: center;
+  .container {
+    input {
+      width: 300px;
+    }
+    .tit {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    img {
+      max-width: 100px;
+    }
+  }
+}

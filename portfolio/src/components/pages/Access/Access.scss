@@ -13,8 +13,11 @@
       font-size: 32px;
       font-weight: bold;
     }
-    img {
-      max-width: 100px;
+    .btn_wrap {
+      button { 
+        background-color: #e9d4ff;
+        font-weight: bold; 
+      }
     }
   }
 }

@@ -20,7 +20,7 @@ const Access = () => {
   return (
     <div className="AccessPage">
       <div className="container">
-        <img src={images.logo} alt="logo" />
+        <img src={images.logo} alt="logo" className="logo" />
         <div className="tit mb_20">반가워요! 자기소개를 해주세요!</div>
         <form onSubmit={handleSubmit(setNickName)}>
           <div className="input_wrap mb_30">

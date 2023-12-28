@@ -1,5 +1,14 @@
-import { Route, Routes } from "react-router-dom";
-import { NoCookie, IsCookie, Access, Main, Profile, Project, SideNav } from ".";
+import { Route, Routes } from 'react-router-dom'
+import {
+  NoCookie,
+  IsCookie,
+  Access,
+  Careers,
+  Main,
+  Profile,
+  Project,
+  SideNav
+} from '.'
 
 const Router = () => {
   return (
@@ -12,10 +21,11 @@ const Router = () => {
           <Route element={<Main />} path="/" />
           <Route element={<Profile />} path="/profile" />
           <Route element={<Project />} path="/project" />
+          <Route element={<Careers />} path="/careers" />
         </Route>
       </Route>
     </Routes>
-  );
-};
+  )
+}
 
-export { Router };
+export { Router }

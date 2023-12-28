@@ -1,6 +1,4 @@
-html, body { width: 100%; height: 100%; }
-#root { height: 100%; }
-
+//input
 .input_wrap {
   input {
     display: inline-block;
@@ -11,6 +9,8 @@ html, body { width: 100%; height: 100%; }
     padding: 5px 0;
   }
 }
+
+//button
 .btn_wrap {
   button {
     display: inline-block;
@@ -25,17 +25,25 @@ html, body { width: 100%; height: 100%; }
     }
   }
 }
-.logo {
-  width: 100px;
+
+//flex
+.flex{
+  display: flex;
 }
+
 .flex_center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+//font
 .bold {
   font-weight: bold;
 }
+
+
+//margin
 .mb_5 {
   margin-bottom: 5px;
 }
@@ -88,6 +96,7 @@ html, body { width: 100%; height: 100%; }
   margin-right: 30px;
 }
 
+//padding
 .pb_5 {
   padding-bottom: 5px;
 }

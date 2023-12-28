@@ -1,4 +1,5 @@
 {
+  "homepage": "http://eksk473.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "dayjs": "^1.11.10",
+    "env-cmd": "^10.1.0",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-cookie": "^6.1.1",
@@ -18,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "env-cmd -f .env.local react-scripts start",
+    "build": "env-cmd -f .env.production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

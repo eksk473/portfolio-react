@@ -1,4 +1,4 @@
-import { images } from '../../../assets'
+import { images } from 'assets'
 import './SideNav.scss'
 
 import { useEffect, useMemo } from 'react'
@@ -14,7 +14,6 @@ const SideNav = () => {
 
   const handleLogout = () => {
     cookies.remove('accessNickname')
-    navi('/access')
   }
 
   const selected = useMemo(() => {

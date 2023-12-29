@@ -1,5 +1,11 @@
 const Careers = () => {
-  return <div>Careers</div>
+  return (
+    <div className="CareersPage">
+      <div className="container">
+        <div className="tit">Careers</div>
+      </div>
+    </div>
+  )
 }
 
 export { Careers }

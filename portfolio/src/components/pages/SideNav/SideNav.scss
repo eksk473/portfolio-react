@@ -1,34 +1,21 @@
-.content_wrap{
-  display: flex;
-  width: 100%;
-  height: 100%;
-  .SideNav {
-    background-color: #e9d4ff;
-    width: 200px;
-    .logo_wrap {
-      text-align: center;
-      .logo { cursor: pointer; }
-    }
-    .access_info {
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    ul {
-      li{
-        &.on {
-          background-color: #fff;
-        }
-      }
-    }
-    .btn_wrap {
-      &.out {
-        button{ 
-          border: 0.5px solid #6a32a5;
-        }
-      }
+.SideNav {
+  background-color: #e9d4ff; width: 200px;  
+  .logo_wrap {
+    text-align: center;
+    .logo { cursor: pointer; }
+  }
+
+  .access_info { gap: 10px; flex-wrap: wrap; }
+
+  ul {
+    li{
+      &.on { background-color: #fff; }
     }
   }
-  .page_wrap {
-    width: calc(100% - 200px);
+
+  .btn_wrap {
+    &.out {
+      button{ border: 0.5px solid #6a32a5; }
+    }
   }
 }

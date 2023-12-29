@@ -1,5 +1,5 @@
 import './Access.scss'
-import { images } from '../../../assets'
+import { images } from 'assets'
 
 import { useForm } from 'react-hook-form'
 import { Cookies } from 'react-cookie'

@@ -1,5 +1,6 @@
 .SideNav {
-  background-color: #e9d4ff; width: 200px;  
+  background-color: #e9d4ff; width: 200px; height: 100%; position: fixed; top: 0; left: 0;
+  
   .logo_wrap {
     text-align: center;
     .logo { cursor: pointer; }
@@ -9,7 +10,13 @@
 
   ul {
     li{
-      &.on { background-color: #fff; }
+      &:hover { 
+        button { color: #fff; }
+      }
+      &.on { 
+        background-color: #fff;
+        button { color: inherit; }
+      }
     }
   }
 
